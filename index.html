@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>15 Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <div class="parent">
+        <div class="child1">
+            <div class="titleAndButton">
+                <h1>15 game</h1>
+                <button id="game" class="game">New game</button>
+                <br>
+                <br>
+            </div>
+    
+            <div id="difficulty" class="difficulty">
+                Difficulty:
+                <br>
+                <input type="radio" name="game-difficulty" id="game-difficulty-one" value='4' checked>
+                <label for="game-difficulty-one">4x4 (classic)</label>
+            </div>
+        </div>
+        <div class="child2">
+            <!-- Игра -->
+            <div class="field" id="field"></div>
+        </div>
+    </div>
+</body>
+</html>
